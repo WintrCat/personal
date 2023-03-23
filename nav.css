@@ -1,0 +1,49 @@
+nav {
+    padding: 10px;
+
+    background-color: rgb(15, 27, 32);
+    font-family: "Delicious";
+}
+nav span {
+    position: relative;
+    top: 6px;
+}
+#navLogo {
+    margin-right: 5px;
+    width: auto;
+    height: 50px;
+    vertical-align: middle;
+}
+#navTitle {
+    font-size: 32px;
+}
+#navButtons {
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+#navButtons a {
+    margin: 0px 15px 0px 15px;
+    padding: 10px 30px 10px 30px;
+    vertical-align: middle;
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+    transition-duration: 0.5s;
+}
+#navButtons a:not(#navContact):hover {
+    background-color: rgb(26, 46, 54);
+}
+
+#navContact {
+    background-color: rgb(26, 46, 54);
+    border: 2px solid rgb(174, 255, 255);
+    border-radius: 10px;
+
+    transition-duration: 0.5s;
+}
+#navContact:hover {
+    background-color: rgb(38, 68, 80);
+}

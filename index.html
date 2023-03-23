@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <title>WintrCat</title>
+
+    <link rel="stylesheet" href="./index.css"/>
+    <link rel="stylesheet" href="./nav.css"/>
+    <link rel="stylesheet" href="./content.css"/>
 </head>
 <body>
-    <h1>WintrCat's Website</h1>
-    <img src="mikolaj.jpg"/>
+    <nav>
+        <img id="navLogo" src="./assets/logo.png"/>
+        <span id="navTitle">WintrCat</span>
+
+        <div id="navButtons">
+            <a href="">About</a>
+            <a href="">Projects</a>
+            <a id="navContact" style="font-size: 26px; padding: 5px 30px 5px 30px;" href="">
+                Contact
+            </a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div id="hello">
+            <h1>hi, i'm </h1>
+            <h1 id="wintrcat">WintrCat</h1>
+            <h1 style="position: relative; right: 10px;">.</h1>
+
+            <p>
+                I'm a developer who makes things; mostly stupid things.
+            </p>
+        </div>
+        <img id="pfp" src="./assets/wintrcat.jpg"/>
+        
+    </div>
 </body>
 </html>

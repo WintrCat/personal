@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Delicious";
+    src: url("./assets/DeliciousHandrawn-Regular.ttf");
+}
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./assets/JetBrainsMono.ttf");
+}
+
+body {
+    margin: 0px;
+
+    background-color: rgb(33, 49, 56);
+    color: white;
+}

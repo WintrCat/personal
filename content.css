@@ -1,0 +1,30 @@
+.content {
+    font-family: "JetBrains Mono";    
+}
+
+#hello {
+    display: inline-block;
+    margin: 40px;
+    margin-left: 60px;
+}
+#hello h1 {
+    display: inline;
+    font-size: 64px;
+}
+#wintrcat {
+    color: transparent;
+    background: -webkit-linear-gradient(0deg, #54ddff, #00a2ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#pfp {
+    width: 300px;
+    height: auto;
+    vertical-align: middle;
+
+    float: right;
+    margin: 30px;
+
+    border-radius: 50px;
+}
